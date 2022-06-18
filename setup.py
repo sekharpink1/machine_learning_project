@@ -9,7 +9,7 @@ DESRCIPTION="This is a first FSDS Nov batch Machine Learning Project"
 
 REQUIREMENT_FILE_NAME="requirements.txt"
 
-
+asasasas
 def get_requirements_list()->List[str]:
     """
    
