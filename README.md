@@ -105,11 +105,12 @@ docker push loginID/REPOSITORY
 > Note: Now check in dockerhub account whether this image is pushed or not.
 
 ```
-< Note: to remove existing REPOSITORY which we sent to dockerhub
+> Note: to remove existing REPOSITORY which we sent to dockerhub
 docker rmi loginID/REPOSITORY
 ```
 > to download or pull  any docker image 
 docker pull loginID/REPOSITORY
+```
 > Note: After this pulling of docker image, we can run it using docker run command specified above.
 ```
 python setup.py install
