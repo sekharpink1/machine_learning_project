@@ -92,9 +92,25 @@ Tos stop docker conatiner
 ```
 docker stop <container_id>
 ```
+> To push docker image in to dockerhub use the below steps
+```
+docker login
+> Note: Enter login ID (sekharpink1) and password
+```
+docker tag REPOSITORY:TAG loginID/REPOSITORY
+> Note: This REPOSITORY and TAG can be find by entering "docker images" command and loginID is sekharpink1
 
+```
+docker push loginID/REPOSITORY
+> Note: Now check in dockerhub account whether this image is pushed or not.
 
-
+```
+< Note: to remove existing REPOSITORY which we sent to dockerhub
+docker rmi loginID/REPOSITORY
+```
+> to download or pull  any docker image 
+docker pull loginID/REPOSITORY
+> Note: After this pulling of docker image, we can run it using docker run command specified above.
 ```
 python setup.py install
 ```
